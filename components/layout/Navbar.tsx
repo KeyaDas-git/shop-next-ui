@@ -19,14 +19,14 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/store/admin/products"
+            href="/store/products"
             className="text-sm font-medium text-gray-700 hover:text-black"
           >
             Products
           </Link>
 
           <Link
-            href="/store/admin/categories"
+            href="/store/categories"
             className="text-sm font-medium text-gray-700 hover:text-black"
           >
             Categories
@@ -43,7 +43,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/store/admin/cart"
+            href="/store/cart"
             className="rounded-lg bg-black px-4 py-2 text-sm font-medium text-white hover:bg-gray-800"
           >
             Cart

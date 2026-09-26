@@ -20,7 +20,7 @@ export default function Home() {
           </p>
 
           <Link
-            href="/store/admin/products"
+            href="/store/products"
             className="rounded-lg bg-black px-6 py-3 text-sm font-semibold text-white transition hover:bg-gray-800"
           >
             Shop Now
@@ -74,7 +74,7 @@ export default function Home() {
 function CategoryCard({ title }: { title: string }) {
   return (
     <Link
-      href="/store/admin/products"
+      href="/store/products"
       className="flex h-40 items-end rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
     >
       <h3 className="text-xl font-semibold text-gray-900">{title}</h3>

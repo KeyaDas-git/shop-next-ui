@@ -16,7 +16,13 @@ export default function LoginPage() {
         </div>
 
         <LoginForm />
-
+        <div className="flex flex-col items-center justify-center">
+          <a href="/register">
+            <p className="mt-2 text-sm text-blue-500 hover:text-blue-600 cursor-pointer hover:underline">
+              Create New Account?
+            </p>
+          </a>
+        </div>
       </div>
     </main>
   );
