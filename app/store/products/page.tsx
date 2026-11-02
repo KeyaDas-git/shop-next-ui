@@ -1,6 +1,6 @@
 export default function ProductsPage() {
     return (
-      <main className="mx-auto min-h-screen max-w-7xl px-6 py-16 bg-gray-100">
+      <main className="mx-auto min-h-screen max-w-7xl px-6 py-16 bg-white">
         <div>
           <h1 className="text-4xl font-bold text-gray-900">
             All Products
@@ -20,7 +20,7 @@ export default function ProductsPage() {
       </main>
     );
   }
-  
+   
   function ProductPlaceholder() {
     return (
       <div className="overflow-hidden rounded-xl border border-gray-200 bg-white">
